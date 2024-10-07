@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pizza-background.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: #ffffff; /* White color for better contrast on dark background */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.navbar h1 {
+    display: inline;
+    margin-left: 20px;
+    font-size: 24px; /* Increase font size for visibility */
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.navbar ul li a {
+    color: #ffcc00; /* Gold color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Animation for link color */
+}
+
+.navbar ul li a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #ffcc00;/* Ensure it's visible */
+    text-align: center; /* Align the title to the left */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.add-new-pizza-title {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    font-size: 24px; /* Font size */
+    color: #fff; /* Text color */
+}
+
+p {
+    font-size: 18px;
+    text-align: center; /* Centered paragraph text */
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+    width: 50%;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.7); /* Light transparent white */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+form input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #ffcc00; /* Gold border on focus */
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.5); /* Glow effect */
+}
+
+/* Pizza list styling */
+.pizza-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pizza-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for items */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners for list items */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.pizza-list li:hover {
+    transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+.pizza-img {
+    width: 100px; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Spacing between image and text */
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    border: 2px solid #464343;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff6600; /* Orange background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation for background color */
+}
+
+button:hover {
+    background-color: #ffcc00; /* Lighten background on hover */
+}
+
+/* Contact section styling */
+.contact-section {
+    background-color: rgba(53, 52, 52, 0.8); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    margin-top: 20px; /* Spacing above the section */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.contact-section h1 {
+    color: #fffafa; /* Darker color for the main heading */
+}
+
+.contact-section h2 {
+    color: #f5f5f5; /* Slightly lighter color for subheadings */
+    margin-top: 15px; /* Margin above subheadings */
+}
+
+.contact-section p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.contact-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.contact-section ul li {
+    margin: 5px 0; /* Margin between list items */
+}
+
+.contact-section ul li a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.contact-section ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
